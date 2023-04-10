@@ -32,6 +32,10 @@
         <activity
             android:name=".about"
             android:label="About" />
+
+        <activity
+            android:name=".animals"
+            android:label="Animals" />
     </application>
 
 </manifest>

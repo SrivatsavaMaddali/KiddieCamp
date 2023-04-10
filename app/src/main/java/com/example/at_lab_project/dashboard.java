@@ -29,5 +29,14 @@ public class dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        CardView animals=findViewById(R.id.cardAnimals);
+        animals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, animals.class);
+                startActivity(intent);
+            }
+        });
     }
 }
