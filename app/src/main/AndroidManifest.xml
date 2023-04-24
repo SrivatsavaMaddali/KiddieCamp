@@ -39,6 +39,12 @@
         <activity
             android:name=".colorss"
             android:label="Colors" />
+        <activity
+            android:name=".alph"
+            android:label="Alphabets" />
+        <activity
+            android:name=".shapes"
+            android:label="Shapes" />
     </application>
 
 </manifest>

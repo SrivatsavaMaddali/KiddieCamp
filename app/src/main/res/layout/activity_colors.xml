@@ -25,21 +25,317 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="Let us learn some basic colors!!!!!"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/black"
             android:textSize="24sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Let us start with the rainbow colors <3"
-            android:textColor="@color/purple_200"
+            android:text="Let us start with the rainbow colors:"
+            android:textColor="@color/black"
             android:textSize="24sp" />
+
         <ImageView
             android:id="@+id/rainbow"
-            android:layout_width="224dp"
+            android:layout_width="wrap_content"
             android:layout_height="202dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
-            app:srcCompat="@drawable/som" />
+            app:srcCompat="@drawable/bow" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The rainbow has 7 colors as you see from the above picture. The are represented using the acronym:"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <ImageView
+            android:id="@+id/vibana"
+            android:layout_width="wrap_content"
+            android:layout_height="202dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/vibana" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Each letter is the first letter of the name of the colors in the rainbow. VIBGYOR is used to easily remember the rainboow colors."
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/vib"
+            android:layout_width="411dp"
+            android:layout_height="318dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/vib" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="As you can see from the above picture, the colors are Violet, Indigo, Blue, Green, Yellow, Orange, Red"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Let us now learn about some other important day to day colors..."
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="This color is called Pink:"
+            android:textColor="@color/pink"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="529dp"
+            android:layout_height="254dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/pink" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="This color is called Brown:"
+            android:textColor="@color/brown"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/brown"
+            android:layout_width="403dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/brown" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Finally we have black:"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/bla"
+            android:layout_width="403dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="And white:"
+            android:textColor="@color/grey"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/whit"
+            android:layout_width="403dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="You can't see anything above because this page background is also white."
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Now let us try doing an exercise and try to see what all colors are there in the following images:"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <ImageView
+            android:id="@+id/barb"
+            android:layout_width="403dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/barb" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The above image of barbie has mostly 2 colors: "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Pink "
+            android:textColor="@color/pink"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Yellow"
+            android:textColor="@color/yellow"
+            android:textSize="24sp" />
+
+
+        <ImageView
+            android:id="@+id/sky"
+            android:layout_width="403dp"
+            android:layout_height="287dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/sky" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The above image of sky has mostly 2 colors: "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Blue"
+            android:textColor="@color/blue"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="White"
+            android:textColor="@color/grey"
+            android:textSize="24sp" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/tiger"
+            android:layout_width="403dp"
+            android:layout_height="287dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/tiger" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The above image of tiger has mostly 2 colors: "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Orange"
+            android:textColor="@color/orange"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Black"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/traffic"
+            android:layout_width="403dp"
+            android:layout_height="287dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/traffic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The above image of taffic lights has mostly 3 colors: "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Red"
+            android:textColor="@color/red"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Yellow"
+            android:textColor="@color/yellow"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Green"
+            android:textColor="@color/green"
+            android:textSize="24sp" />
+
+
+
+        <ImageView
+            android:id="@+id/zebra"
+            android:layout_width="403dp"
+            android:layout_height="287dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/zebra" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="The above image of zebra has mostly 2 colors: "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Black"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="White"
+            android:textColor="@color/grey"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Congratulations!!! You have completed learning the basic colors!!!"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
     </LinearLayout>
 </ScrollView>

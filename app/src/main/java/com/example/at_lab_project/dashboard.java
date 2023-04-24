@@ -47,5 +47,24 @@ public class dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        CardView alph=findViewById(R.id.cardAlphabets);
+        alph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, alph.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView shapes=findViewById(R.id.cardShapes);
+        shapes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, shapes.class);
+                startActivity(intent);
+            }
+        });
     }
 }
