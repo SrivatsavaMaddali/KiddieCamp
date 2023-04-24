@@ -35,4 +35,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        // Close the app when back button is pressed
+        finishAffinity();
+        System.exit(0);
+    }
 }

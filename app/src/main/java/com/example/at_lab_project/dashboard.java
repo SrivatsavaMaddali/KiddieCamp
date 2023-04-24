@@ -38,5 +38,14 @@ public class dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        CardView colorss=findViewById(R.id.cardColors);
+        colorss.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(dashboard.this, colorss.class);
+                startActivity(intent);
+            }
+        });
     }
 }

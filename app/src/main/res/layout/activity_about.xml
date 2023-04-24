@@ -30,9 +30,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="
- "
-                android:textColor="@color/black"
+                android:text="Welcome to Kiddie Camp - the ultimate child education app designed to engage and educate young minds in a fun and interactive way!
+
+Our app is specifically designed for children to learn and explore various educational concepts such as colors, shapes, animals, sounds, alphabets, rhymes, and more. With a wide range of engaging activities, Kiddie Camp provides a stimulating and immersive learning experience that sparks curiosity and fosters a love for learning.
+
+One of the unique features of Kiddie Camp is its progress report system, which allows parents and caregivers to track their child's learning journey. With detailed insights and analytics, you can monitor your child's progress and identify areas where they excel or may need additional support.
+
+Our app also features a map marker functionality that lets parents mark important places their child might go to, such as their school, park, or other significant locations. This feature helps parents keep track of their child's whereabouts and ensures their safety.
+
+Join us in creating a joyful and enriching learning experience for your child with Kiddie Camp. Let your child embark on a journey of discovery, exploration, and learning with our app. We are committed to providing a high-quality educational app that nurtures young minds and empowers children to learn and grow at their own pace.
+
+Thank you for choosing Kiddie Camp, and we look forward to being a part of your child's educational journey!"
+                android:textColor="@color/pink"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/background_image"

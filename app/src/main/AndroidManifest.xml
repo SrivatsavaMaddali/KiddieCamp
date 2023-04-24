@@ -36,6 +36,9 @@
         <activity
             android:name=".animals"
             android:label="Animals" />
+        <activity
+            android:name=".colorss"
+            android:label="Colors" />
     </application>
 
 </manifest>
