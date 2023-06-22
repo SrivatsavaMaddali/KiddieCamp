@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".alph">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,6 +14,7 @@
         android:background="#0E0B0B"
         android:backgroundTint="#070606"
         android:orientation="vertical">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -32,6 +33,19 @@
             android:textAlignment="center"
             android:textColor="@color/purple_200"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/alphabet_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="84dp"
+            android:text="Play the Alphabet song" />
+        <Button
+            android:id="@+id/alphabet_song_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Stop" />
 
         <ImageView
             android:id="@+id/rainbow"

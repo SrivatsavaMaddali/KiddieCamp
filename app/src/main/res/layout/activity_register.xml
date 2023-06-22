@@ -115,7 +115,7 @@
                 android:textColor="@color/black"
                 android:textColorHint="@color/pink"/>
             <Button
-                android:id="@+id/register_button"
+                android:id="@+id/register"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="264dp"
